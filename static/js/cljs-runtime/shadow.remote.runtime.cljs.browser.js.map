@@ -1,0 +1,1 @@
+{"version":3,"sources":["shadow/remote/runtime/cljs/browser.cljs"],"mappings":"","names":[],"sourcesContent":["(ns shadow.remote.runtime.cljs.browser)\n\n;; keeping this for old inspect users\n;; migrated everything to the shadow-cljs client namespaces\n"]}

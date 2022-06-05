@@ -1,0 +1,1 @@
+{"version":3,"sources":["frontend/version.cljs"],"mappings":";AAEA,GAAA,QAAAA,qCAAAC,6CAAAC;AAAA;AAAA,AAAA,2BAAA,3BAASC","names":["js/frontend","js/frontend.version","js/frontend.version.version","frontend.version/version"],"sourcesContent":["(ns frontend.version)\r\n\r\n(defonce version \"0.7.1\")\r\n"]}

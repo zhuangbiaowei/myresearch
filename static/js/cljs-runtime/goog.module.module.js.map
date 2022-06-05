@@ -1,0 +1,9 @@
+{
+"version":3,
+"file":"goog.module.module.js",
+"lineCount":3,
+"mappings":"AAcAA,IAAKC,CAAAA,OAAL,CAAa,aAAb,CAAA;AAWAD,IAAKE,CAAAA,MAAL,GAAcF,IAAKE,CAAAA,MAAnB,IAA6B,EAA7B;;",
+"sources":["goog/module/module.js"],
+"sourcesContent":["/**\n * @license\n * Copyright The Closure Library Authors.\n * SPDX-License-Identifier: Apache-2.0\n */\n\n/**\n *\n * @fileoverview This class supports the dynamic loading of compiled\n * javascript modules at runtime, as described in the designdoc.\n *\n *   <http://go/js_modules_design>\n */\n\ngoog.provide('goog.module');\n\n// TODO(johnlenz): Here we explicitly initialize the namespace to avoid\n// problems with the goog.module method in base.js. We should rename this\n// entire package to goog.loader and then we can delete this file.\n//\n// However, note that it is tricky to do that without breaking the world.\n/**\n * @suppress {duplicate}\n * @type {function(string):void}\n */\ngoog.module = goog.module || {};\n"],
+"names":["goog","provide","module"]
+}

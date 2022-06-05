@@ -1,0 +1,9 @@
+{
+"version":3,
+"file":"goog.events.keys.js",
+"lineCount":3,
+"mappings":"AAUAA,IAAKC,CAAAA,OAAL,CAAa,kBAAb,CAAA;AASAD,IAAKE,CAAAA,MAAOC,CAAAA,IAAZ,GAAmB,CACjBC,IAAK,MADY,EAEjBC,SAAU,UAFO,EAGjBC,UAAW,WAHM,EAIjBC,KAAM,SAJW,EAKjBC,OAAQ,QALS,EAMjBC,KAAM,WANW,EAOjBC,IAAK,KAPY,EAQjBC,MAAO,OARU,EASjBC,OAAQ,QATS,EAUjBC,KAAM,MAVW,EAWjBC,OAAQ,QAXS,EAYjBC,KAAM,WAZW,EAajBC,UAAW,UAbM,EAcjBC,QAAS,QAdQ,EAejBC,MAAO,YAfU,EAgBjBC,MAAO,OAhBU,EAiBjBC,MAAO,GAjBU,EAkBjBC,IAAK,KAlBY,EAmBjBC,GAAI,SAnBa,EAAnB;;",
+"sources":["goog/events/keys.js"],
+"sourcesContent":["/**\n * @license\n * Copyright The Closure Library Authors.\n * SPDX-License-Identifier: Apache-2.0\n */\n\n/**\n * @fileoverview Constant declarations for common key values.\n */\n\ngoog.provide('goog.events.Keys');\n\n\n/**\n * Key values for common characters.\n *\n * @see https://developer.mozilla.org/en-US/docs/Web/API/KeyboardEvent/key\n * @enum {string}\n */\ngoog.events.Keys = {\n  ALT: 'Meta',\n  ALTGRAPH: 'AltGraph',\n  BACKSPACE: 'Backspace',\n  CTRL: 'Control',\n  DELETE: 'Delete',\n  DOWN: 'ArrowDown',\n  END: 'End',\n  ENTER: 'Enter',\n  ESCAPE: 'Escape',\n  HOME: 'Home',\n  INSERT: 'Insert',\n  LEFT: 'ArrowLeft',\n  PAGE_DOWN: 'PageDown',\n  PAGE_UP: 'PageUp',\n  RIGHT: 'ArrowRight',\n  SHIFT: 'Shift',\n  SPACE: ' ',\n  TAB: 'Tab',\n  UP: 'ArrowUp',\n};\n"],
+"names":["goog","provide","events","Keys","ALT","ALTGRAPH","BACKSPACE","CTRL","DELETE","DOWN","END","ENTER","ESCAPE","HOME","INSERT","LEFT","PAGE_DOWN","PAGE_UP","RIGHT","SHIFT","SPACE","TAB","UP"]
+}

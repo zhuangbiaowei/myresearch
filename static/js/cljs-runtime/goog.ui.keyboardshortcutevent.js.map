@@ -1,0 +1,9 @@
+{
+"version":3,
+"file":"goog.ui.keyboardshortcutevent.js",
+"lineCount":9,
+"mappings":"AASAA,IAAKC,CAAAA,OAAL,CAAa,+BAAb,CAAA;AAEAD,IAAKE,CAAAA,OAAL,CAAa,mBAAb,CAAA;AACAF,IAAKE,CAAAA,OAAL,CAAa,yBAAb,CAAA;AAYAF,IAAKG,CAAAA,EAAGC,CAAAA,qBAAR,GAAgCC,QAAQ,CAACC,IAAD,EAAOC,UAAP,EAAmBC,MAAnB,CAA2B;AAEjER,MAAKS,CAAAA,MAAOC,CAAAA,KAAMC,CAAAA,IAAlB,CAAuB,IAAvB,EAA6BL,IAA7B,EAAmCE,MAAnC,CAAA;AAMA,MAAKD,CAAAA,UAAL,GAAkBA,UAAlB;AARiE,CAAnE;AAUAP,IAAKY,CAAAA,QAAL,CAAcZ,IAAKG,CAAAA,EAAGC,CAAAA,qBAAtB,EAA6CJ,IAAKS,CAAAA,MAAOC,CAAAA,KAAzD,CAAA;;",
+"sources":["goog/ui/keyboardshortcutevent.js"],
+"sourcesContent":["/**\n * @license\n * Copyright The Closure Library Authors.\n * SPDX-License-Identifier: Apache-2.0\n */\n\n/**\n * @fileoverview The event type emitted by the KeyboardShortcutHandler.\n */\ngoog.provide('goog.ui.KeyboardShortcutEvent');\n\ngoog.require('goog.events.Event');\ngoog.require('goog.events.EventTarget');\n\n/**\n * Object representing a keyboard shortcut event.\n * @param {string} type Event type.\n * @param {string} identifier Task identifier for the triggered shortcut.\n * @param {Node|goog.events.EventTarget} target Target the original key press\n *     event originated from.\n * @extends {goog.events.Event}\n * @constructor\n * @final\n */\ngoog.ui.KeyboardShortcutEvent = function(type, identifier, target) {\n  'use strict';\n  goog.events.Event.call(this, type, target);\n\n  /**\n   * Task identifier for the triggered shortcut\n   * @type {string}\n   */\n  this.identifier = identifier;\n};\ngoog.inherits(goog.ui.KeyboardShortcutEvent, goog.events.Event);\n"],
+"names":["goog","provide","require","ui","KeyboardShortcutEvent","goog.ui.KeyboardShortcutEvent","type","identifier","target","events","Event","call","inherits"]
+}
