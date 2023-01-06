@@ -1,0 +1,55 @@
+<!DOCTYPE HTML>
+<html>  <head>
+    <meta charset="UTF-8">
+    <link href="https://cdn.jsdelivr.net/npm/halfmoon@1.1.1/css/halfmoon-variables.min.css" rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/npm/halfmoon@1.1.1/js/halfmoon.min.js"></script>
+    <style>
+      ul ul {margin: 10px 0 15px 20px}
+      li {margin-bottom: 10px;}
+    </style>
+  </head>
+  <body>
+    <div class="page-wrapper with-sidebar with-navbar">
+      <nav class="navbar">
+        <a href="index.html" class="navbar-brand">{{config.title}}</a>
+      </nav>
+      <div class="sidebar" style="margin-left:10px">
+        <div class="sidebar-menu font-size-16" style="margin-left:10px">
+          <ul>
+            <li><a href="index.html">Journals</a></li>
+            <li><a href="pages.html">All Page</a></li>
+            <li><a href="kg.html">Graph</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="content-wrapper" style="margin-left:50px">
+        <h2>All Pages</h2>
+        {% for page in pages %}
+        <a href="{{page.item_name}}.html">{{page.item_name}}</a><br />
+        {% endfor %}
+        <br />
+        <nav aria-label="Page navigation example">
+          <ul class="pagination">
+            <li class="page-item">
+              <a href="{{pagination.previous}}" class="page-link">
+                <i class="fa fa-angle-left" aria-hidden="true"><</i>              
+              </a>
+            </li>
+            {% for page_item in pagination.pages %}
+              {% if page_item.active == true %}
+                <li class="page-item active"><a href="{{page_item.url}}" class="page-link">{{page_item.number}}</a></li>
+              {% else %}
+                <li class="page-item"><a href="{{page_item.url}}" class="page-link">{{page_item.number}}</a></li>
+              {% endif %}
+            {% endfor %}
+            <li class="page-item">
+              <a href="{{pagination.next}}" class="page-link">
+                <i class="fa fa-angle-right" aria-hidden="true">></i>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </body>
+</html>

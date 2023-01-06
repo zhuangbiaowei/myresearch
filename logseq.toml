@@ -1,0 +1,14 @@
+[logseq]
+authors = ["Zhuang Biaowei"]
+language = "zh"
+journals = "journals"
+pages = "pages"
+title = "My Research"
+:wq:
+[preprocessing]
+backlinks = true
+
+[template]
+page_template = "./template/logseq.liquid"
+journal_template = "./template/journal.liquid"
+knowledge_graph_template = "./template/kg.liquid"
