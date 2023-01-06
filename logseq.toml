@@ -9,6 +9,8 @@ title = "My Research"
 backlinks = true
 
 [template]
-page_template = "./template/logseq.liquid"
+page_template = "./template/page.liquid"
+pages_template = "./template/pages.liquid"
 journal_template = "./template/journal.liquid"
+journals_template = "./template/index.liquid"
 knowledge_graph_template = "./template/kg.liquid"
