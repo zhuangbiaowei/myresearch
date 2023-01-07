@@ -91,7 +91,7 @@ end
 
 template = Liquid::Template.parse(File.read("./template/page.liquid"))
 site.pages.each do |page|
-    filename = "./site/" + page.item_name + ".html"
+    filename = "./site/#{page.item_name}.html"
     f = File.new(filename, "w")
     f.puts template.render(
         'config'=>{'title'=>site_name},
