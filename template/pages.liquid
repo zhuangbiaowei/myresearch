@@ -24,9 +24,26 @@
       </div>
       <div class="content-wrapper" style="margin-left:50px">
         <h2>All Pages</h2>
+        <table class="table">
+          <thead>
+            <tr>
+              <th>title</th>
+              <th>references_count</th>
+              <th>create time</th>
+              <th>modify time</th>
+            </tr>
+          </thead>
+          <tbody>
         {% for page in pages %}
-        <a href="{{page.item_name}}.html">{{page.item_name}}</a><br />
+            <tr>
+              <td><a href="{{page.item_name}}.html">{{page.item_name}}</a></td>
+              <td>{{page.references}}</td>
+              <td>{{page.ctime}}</td>
+              <td>{{page.mtime}}</td>
+            </tr>
         {% endfor %}
+          </tbody>
+        </table>
         <br />
         <nav aria-label="Page navigation example">
           <ul class="pagination">
