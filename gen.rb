@@ -115,4 +115,5 @@ end
 
 if Dir.exists?("./assets")
     `cp -r ./assets ./site/assets`
+    `cp tree.js ./site/tree.js`
 end
