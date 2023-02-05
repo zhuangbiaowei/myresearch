@@ -9,8 +9,14 @@ title = "My Research"
 backlinks = true
 
 [template]
-page_template = "./template/page.liquid"
 pages_template = "./template/pages.liquid"
-journal_template = "./template/journal.liquid"
+page_template = "./template/page.liquid"
 journals_template = "./template/index.liquid"
+journal_template = "./template/journal.liquid"
 knowledge_graph_template = "./template/kg.liquid"
+
+[generate]
+publish_dir = "./site"
+assets_dir = "./assets"
+copy_files = ["./tree.js"]
+knowledge_graph = "/kg.html"
