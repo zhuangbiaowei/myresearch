@@ -36,6 +36,7 @@
 			- 开源社区、生态篇
 		- TODO 修订成为开源人
 		- TODO 畅想：AI与开源的未来
+		- TODO SHOPEN管理规章制度
 	- 开发
 		- DONE Answer
 	- 视频
