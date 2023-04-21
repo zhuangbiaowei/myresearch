@@ -21,7 +21,7 @@
 		- DONE 《[[熊十力的新唯识论与胡塞尔的现象学]]》
 		- TODO 《老子古本探賾正解》
 	- 写作
-		- TODO 开源知识图谱
+		- DONE 开源知识图谱
 		- TODO 开源十大案例
 		  collapsed:: true
 			- 华为OpenEuler
@@ -35,11 +35,13 @@
 			- 开源商业篇
 			- 开源社区、生态篇
 		- TODO 修订成为开源人
+			- DONE 搭建成为开源人网站
 		- TODO 畅想：AI与开源的未来
 		- TODO SHOPEN管理规章制度
+		- TODO 修订元数据标准
 	- 开发
 		- DONE Answer
 	- 视频
-		- TODO 开源百科
+		- TODO [[开源百科]]
 	- 直播
 		- 5月7日 开源企业战略
