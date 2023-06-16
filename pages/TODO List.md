@@ -15,12 +15,15 @@
 	- DONE 12月16日~17日，参加北京Dev.Together大会，担任开源小酒馆访谈主持，并发表演讲《COSCon 是怎样炼成的》
 	- DONE 12月18日，参加Corrie婚礼，并担任证婚人
 - 其他任务
+  collapsed:: true
 	- 读书
-		- 《[[正义论]]》
+	  collapsed:: true
+		- DONE 《[[正义论]]》
 		- DONE 《[[开源文化在中国]]》
 		- DONE 《[[熊十力的新唯识论与胡塞尔的现象学]]》
-		- TODO 《老子古本探賾正解》
+		- DONE 《老子古本探賾正解》
 	- 写作
+	  collapsed:: true
 		- DONE 开源知识图谱
 		- TODO 开源十大案例
 		  collapsed:: true
@@ -34,14 +37,27 @@
 		  collapsed:: true
 			- 开源商业篇
 			- 开源社区、生态篇
-		- TODO 修订成为开源人
+		- DONE 修订成为开源人
 			- DONE 搭建成为开源人网站
 		- DONE 畅想：AI与开源的未来
-		- TODO SHOPEN管理规章制度
-		- TODO 修订元数据标准
+		- DONE SHOPEN管理规章制度
+		- DONE 修订元数据标准
 	- 开发
+	  collapsed:: true
 		- DONE Answer
+		- TODO 开源知识库
 	- 视频
+	  collapsed:: true
 		- TODO [[开源百科]]
 	- 直播
-		- 5月7日 开源企业战略
+	  collapsed:: true
+		- DONE 5月7日 开源企业战略
+- 基金会任务
+	- TODO 整理端午节送礼名单
+	- TODO 与法务候选人交流
+	- TODO 整理基金会人员架构，薪资层级
+	- TODO 发出聘书
+		- 杨攀
+		- Keith
+		- 李锐
+	- TODO 与上海
