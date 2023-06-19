@@ -1,3 +1,4 @@
 *.pdf
 *.edn
+push.sh
 logseq/
