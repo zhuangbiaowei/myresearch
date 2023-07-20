@@ -58,11 +58,11 @@
 		- 杨攀
 		- Keith
 		- 李锐
-	- TODO 与赵云虎交流聘请法律顾问
+	- DONE 与赵云虎交流聘请法律顾问
 	- TODO 与浪潮张晖交流捐赠事宜
-	- TODO 与马越交流，在重庆落地Hagging Face的事情
+	- DONE 与马越交流，在重庆落地Hagging Face的事情
 	- TODO 咨询新加坡签证
-	- TODO 完成COSCon启动文
+	- DONE 完成COSCon启动文
 	- TODO COSCUP PPT 《人們為何能夠協作？ -- 探尋四種代碼的作用》
 	- TODO CoC Asia PPT《社区和贡献者如何找到彼此？》
 	- TODO 开源公益讲座《生态进化：开源供应链的演进过程》
