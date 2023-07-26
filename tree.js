@@ -1,17 +1,17 @@
 function set_tree(class_name){
     var list = $(class_name + " li");
     list.each(function(item){
-        if (list[item].children.length>0 && item>0){
+        if (list[item].children.length>0 && item>=0){
             if (list[item].children[0].localName == "ul"){
                 return set_folder(list, item, 0);
             }
         }
-        if(list[item].children.length>1 && item>0){
+        if(list[item].children.length>1 && item>=0){
             if(list[item].children[1].localName == "ul"){
                 return set_folder(list, item, 0);
             }
         }
-        if(list[item].children.length>2 && item>0){
+        if(list[item].children.length>2 && item>=0){
             if(list[item].children[2].localName == "ul"){
                 return set_folder(list, item, 1);
             }
