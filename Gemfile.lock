@@ -10,7 +10,7 @@ GEM
       kramdown (~> 2.0)
       kramdown-parser-gfm (~> 1.0)
       tomlrb (~> 2.0.0)
-    markdown_site (0.0.5)
+    markdown_site (0.0.6)
       liquid (~> 5.4.0)
       markdown_extension (~> 0.1.9)
       tomlrb (~> 2.0.0)
