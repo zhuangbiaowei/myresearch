@@ -1,0 +1,96 @@
+<!DOCTYPE HTML>
+<html>  <head>
+    <meta charset="UTF-8">
+    <link href="./assets/halfmoon-variables.min.css" rel="stylesheet" />
+    <script src="./assets/halfmoon.min.js"></script>
+    <style>
+      ul ul {margin: 10px 0 15px 20px}
+      li {margin-bottom: 10px;}
+    </style>
+  </head>
+  <body>
+    <div class="page-wrapper with-sidebar with-navbar">
+      <nav class="navbar">
+        <a href="index.html" class="navbar-brand">My Research</a>
+      </nav>
+      <div class="sidebar" style="margin-left:10px">
+        <div class="sidebar-menu font-size-16" style="margin-left:10px;">
+          <ul>
+            <li><a href="index.html">Journals</a></li>
+            <li><a href="pages.html">All Page</a></li>
+            <li><a href="kg.html">Graph</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="content-wrapper" style="padding-left:50px;padding-right:50px;">
+            <h1>【译】开源软件定义</h1>
+            <ul>
+  <li>开源不仅仅是指能够访问源代码。开源软件的分发条款必须符合以下标准：</li>
+  <li>1． 自由再分发
+    <ul>
+      <li>许可证不应限制任何一方出售或赠送软件作为包含来自不同来源程序的聚合软件分发的一部分。许可证不应要求对此类销售收取版税或其他费用。</li>
+    </ul>
+  </li>
+  <li>2． 源代码
+    <ul>
+      <li>程序必须包含源代码，并且必须允许以源代码形式以及编译形式进行分发。如果某种形式的产品没有随源代码分发，必须有公开宣传的获取源代码的方式，且成本不得超过合理的复制成本，最好通过互联网免费下载。源代码必须是程序员修改程序的首选形式。不允许故意混淆的源代码。不允许中间形式，如预处理器或翻译器的输出。</li>
+    </ul>
+  </li>
+  <li>3． 派生作品
+    <ul>
+      <li>许可证必须允许修改和派生作品，并且必须允许它们在与原始软件许可证相同的条款下分发。</li>
+    </ul>
+  </li>
+  <li>4． 作者源代码的完整性
+    <ul>
+      <li>如果许可证允许在构建时修改程序的“补丁文件”与源代码一起分发，许可证可以限制源代码以修改形式分发。许可证必须明确允许分发从修改后的源代码构建的软件。许可证可以要求派生作品携带与原始软件不同的名称或版本号。</li>
+    </ul>
+  </li>
+  <li>5． 不歧视个人或团体
+    <ul>
+      <li>许可证不得对任何个人或团体进行歧视。</li>
+    </ul>
+  </li>
+  <li>6． 不歧视领域
+    <ul>
+      <li>许可证不得限制任何人在特定领域的努力中使用程序。例如，它不得限制程序在商业中的使用，或者用于遗传研究。</li>
+    </ul>
+  </li>
+  <li>7． 许可证的分发
+    <ul>
+      <li>附加于程序的权利必须适用于所有程序被再分发给的人，无需那些方执行额外的许可证。</li>
+    </ul>
+  </li>
+  <li>8． 许可证不得特定于产品
+    <ul>
+      <li>附加于程序的权利不得依赖于程序是特定软件分发的一部分。如果程序从该分发中提取并在程序许可证的条款内使用或分发，所有程序被再分发给的各方应具有与原始软件分发时授予的权利相同的权利。</li>
+    </ul>
+  </li>
+  <li>9． 许可证不得限制其他软件
+    <ul>
+      <li>许可证不得对与许可软件一起分发的其他软件施加限制。例如，许可证不得坚持在同一介质上分发的所有其他程序必须是开源软件。</li>
+    </ul>
+  </li>
+  <li>10． 许可证必须技术中立
+    <ul>
+      <li>许可证的任何条款都不得基于任何特定技术或接口风格。</li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="references">References</h3>
+<ul>
+  <li><a href="开源学概论.html">开源学概论</a></li>
+</ul>
+
+      </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/cash/8.1.2/cash.min.js"></script>
+    <script src="tree.js"></script>
+    <script>
+      window.onload=function(){
+        set_tree(".content-wrapper");
+      }
+    </script>
+  </body>
+</html>
