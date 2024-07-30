@@ -1,0 +1,4 @@
+assets/*.pdf
+assets/*.edn
+push.sh
+logseq/

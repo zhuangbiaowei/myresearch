@@ -1,0 +1,22 @@
+[logseq]
+authors = ["Zhuang Biaowei"]
+language = "zh"
+journals = "journals"
+pages = "pages"
+title = "My Research"
+
+[preprocessing]
+backlinks = true
+
+[template]
+pages_template = "./template/pages.liquid"
+page_template = "./template/page.liquid"
+journals_template = "./template/index.liquid"
+journal_template = "./template/journal.liquid"
+knowledge_graph_template = "./template/kg.liquid"
+
+[generate]
+publish_dir = "./site"
+assets_dir = "./assets"
+copy_files = ["./tree.js"]
+knowledge_graph = "/kg.html"
