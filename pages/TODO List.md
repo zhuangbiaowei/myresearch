@@ -46,23 +46,24 @@
 		- DONE Answer
 		- DONE 开源知识库
 	- 视频
-		- TODO [[开源百科]]
+		- DONE [[开源百科]]
 	- 直播
 	  collapsed:: true
 		- DONE 5月7日 开源企业战略
 - 基金会任务
+  collapsed:: true
 	- DONE 整理端午节送礼名单
 	- DONE 与法务候选人交流
-	- LATER 【杨秋】整理基金会人员架构，薪资层级
-	- TODO 发出聘书
+	- DONE 【杨秋】整理基金会人员架构，薪资层级
+	- DONE 发出聘书
 		- 杨攀
 		- Keith
 		- 李锐
 	- DONE 与赵云虎交流聘请法律顾问
-	- TODO 与浪潮张晖交流捐赠事宜
+	- DONE 与浪潮张晖交流捐赠事宜
 	- DONE 与马越交流，在重庆落地Hagging Face的事情
-	- TODO 咨询新加坡签证
+	- DONE 咨询新加坡签证
 	- DONE 完成COSCon启动文
-	- TODO COSCUP PPT 《人們為何能夠協作？ -- 探尋四種代碼的作用》
-	- TODO CoC Asia PPT《社区和贡献者如何找到彼此？》
-	- TODO 开源公益讲座《生态进化：开源供应链的演进过程》
+	- DONE COSCUP PPT 《人們為何能夠協作？ -- 探尋四種代碼的作用》
+	- DONE CoC Asia PPT《社区和贡献者如何找到彼此？》
+	- DONE 开源公益讲座《生态进化：开源供应链的演进过程》
