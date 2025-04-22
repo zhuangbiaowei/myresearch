@@ -16,7 +16,7 @@ jobs:
       - name: Setup ruby
         uses: actions/setup-ruby@v1
         with:
-          ruby-version: '3.0'
+          ruby-version: '3.3.4'
       - run: bundle install
       - run: bundle exec ruby gen.rb      
             
