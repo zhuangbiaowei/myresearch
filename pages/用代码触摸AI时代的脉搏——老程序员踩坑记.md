@@ -1,0 +1,43 @@
+- 缘起
+	- OpenAI ChatGPT扑面而来
+	- 老范找我聊天，他自己在玩本地AI
+	- 与李骏、王伟老师聊天，讨论搭建本地AI的可能性
+	- 中国开源年度报告的新闻整理工作：文章-->分类-->摘要-->数据库
+- 第一轮分享：介绍SmartPrompt框架
+	- 从提示词到可编程提示词
+	- Ruby DSL
+	- 提示词模板
+	- Worker与Workflow
+	- “后续发展计划”
+- 从SmartPrompt到SmartAgent
+	- 我想支持逐字显示的效果
+		- 一个契机，让我看到了一下DeepSeek的Function Calling
+	- 理解回调函数
+	- 从SmartPrompt中重构出SmartAgent
+- 从Rich到RubyRich
+	- 另一个野心
+	- AI对我的帮助
+	- AI带我踩的坑
+- SmartResearch想要实现什么样的效果
+	- 人类如何研究？
+	- AI如何辅助人类做研究
+	- 目前的效果演示
+- MCP是一个大坑
+	- stdio的方法调用
+	- SSE的方法调用
+	- 重新理解多轮对话的逻辑
+- SmartBlog，一个中间产品（小玩具）
+	- 代码展示
+	- Worker？Agent？
+	- 简单演示
+- 我的经验与心得
+	- 我们想要的工具是什么样的？【这是原始的驱动力】
+	- 在写代码的过程中，逐步想通架构应该如何
+		- 越是不常见的应用软件，越是只能自己慢慢摸索，AI帮不上什么忙
+	- debug与logger，基本功还是不能丢
+	- 架构的思考模式
+		- 目前我理解的AI应用架构模式
+	- 架构师与产品经理（两顶帽子）
+		- call worker与agent.please
+		- 隐藏细节与重构
+- 欢迎提问
