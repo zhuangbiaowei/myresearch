@@ -18,8 +18,7 @@ jobs:
         with:
           ruby-version: '3.3'
       - run: bundle install
-      - run: bundle exec ruby gen.rb      
-            
+      - run: ruby gen.rb
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         if: ${{ github.ref == 'refs/heads/main' }}
