@@ -1,8 +1,8 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    kramdown (2.4.0)
-      rexml
+    kramdown (2.5.1)
+      rexml (>= 3.3.9)
     kramdown-parser-gfm (1.1.0)
       kramdown (~> 2.0)
     liquid (5.4.0)
@@ -14,7 +14,7 @@ GEM
       liquid (~> 5.4.0)
       markdown_extension (~> 0.1.9)
       tomlrb (~> 2.0.0)
-    rexml (3.2.5)
+    rexml (3.4.1)
     tomlrb (2.0.3)
 
 PLATFORMS
