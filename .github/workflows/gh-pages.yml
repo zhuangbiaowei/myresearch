@@ -8,7 +8,7 @@ on:
 
 jobs:
   deploy:
-    runs-on: ubuntu-22.04
+    runs-on: ubuntu-latest
     concurrency:
       group: ${{ github.workflow }}-${{ github.ref }}
     steps:
@@ -16,7 +16,7 @@ jobs:
       - name: Setup ruby
         uses: actions/setup-ruby@v1
         with:
-          ruby-version: '3.3.4'
+          ruby-version: '3.3'
       - run: bundle install
       - run: bundle exec ruby gen.rb      
             
