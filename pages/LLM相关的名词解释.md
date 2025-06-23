@@ -1,0 +1,8 @@
+- 训练（Training）：用海量、清洗后的数据去优化模型参数，最终产出的是一组“权重”（weights），它们决定了模型在遇到新输入时如何计算输出。
+- 推理（Inference）：把输入（prompt）送入模型（训练好的权重），模型基于内部计算（通常是 Transformer 的自注意力机制）输出文本。输出的词序列由模型预测的概率分布采样而来。
+- 幻觉（Hallucination）：本质是模型基于训练分布“编造”事实 —— 不一定全因 temperature，“高温”只是加剧随机性。即使 temperature 很低，如果模型没学到正确事实，也可能“自信”输出错误。
+- 性能／表现（Performance）：人们用各种任务（如阅读理解、问答、摘要、多项选择题等）的指标来评估模型好坏，反映训练质量与数据质量。
+- 服从性（Alignment / Controllability）：指“对用户指令的响应程度”，也叫“指令跟随（Instruction-following）”或“对齐（Alignment）”。服务商在训练时，会用指令-示例微调（Instruction-tuning）或人类反馈强化学习（RLHF）来提高模型对 prompt 的遵从度。
+- 微调（Fine-tuning）：在已有大模型的权重基础上，继续用更小规模、专门领域的数据训练，以改变或增强模型在特定任务上的能力。
+- 模型 + 搜索（Retrieval-augmented Generation, RAG）：先检索外部知识（比如文档库、Web），再将检索到的文本作为额外 context 拼进 prompt，让模型输出更准确、时效性更强的答案。如果检索结果与模型“记忆”（先前训练内容）冲突，通常由提示设计和对齐策略来决定采用哪部分信息。
+- Function Calling & MCP：通常指模型在推理时，将调用外部 API（如天气、计算器、数据库查询、或某种MCP Service）得到结构化结果，再将结果喂回模型做最终输出，本质上都属于“工具增强”（Tool-augmented LLM）。
